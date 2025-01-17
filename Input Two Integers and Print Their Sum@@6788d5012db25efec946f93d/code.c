@@ -4,6 +4,6 @@ int main()
     int num1,num2,summ;
     scanf("%d %d",&num1,&num2);
     summ=num1+num2;
-    printf("%d\n",summ);
+    printf("sum:%d\n",summ);
     return 0;
 }
