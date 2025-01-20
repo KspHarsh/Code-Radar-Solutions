@@ -4,6 +4,6 @@ int main() {
 float a,b;
 scanf("%f",&a);
 b=3.14*a*a;
-printf("Area:%f\n",b);
+printf("Area:%2f\n",b);
     return 0;
 }
