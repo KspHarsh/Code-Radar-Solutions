@@ -6,7 +6,7 @@ int main() {
     int Age;
     scanf("%d",&Age);
     if (Age>=18){
-    printf("Eligible")}
+    printf("Eligible");}
     else{
         printf("Not Eligible");
     }
