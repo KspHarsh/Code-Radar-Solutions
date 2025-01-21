@@ -8,10 +8,10 @@ int main() {
     if (x=="R"){
         printf("Stop");
         
-    }else if(x=='G'){
+        }else if(x=='G'){
         printf('Go');
-    }else if (x=='Y'){
-        printf("Slow Down");
+        }else if (x=='Y'){
+            printf("Slow Down");
     }
     return 0;
 }
