@@ -3,9 +3,9 @@
 
 
 int main() {
-    int Age;
-    scanf("%d",&Age);
-    if (Age>=18){
+    int Age,x;
+    scanf("%d %d",&Age,&x);
+    if (Age>=18 &&x==1){
     printf("Eligible");}
     else{
         printf("Not Eligible");
