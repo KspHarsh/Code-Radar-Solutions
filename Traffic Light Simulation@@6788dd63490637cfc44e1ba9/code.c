@@ -6,7 +6,7 @@ int main() {
     char x;
     scanf("%c",&x);
     if (x=="R"){
-        printf("Stop")}
+        printf("Stop");}
        else if(x=='G'){
         printf("Go");}
        else if (x=='Y'){
