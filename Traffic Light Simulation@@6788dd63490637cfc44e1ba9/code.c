@@ -10,8 +10,10 @@ int main() {
        else if(x=='G'){
         printf("Go");}
        else if (x=='Y'){
-        printf("Slow Down");
-    }  
+        printf("Slow Down");}
+       else {
+        printf("Invalid input");
+       }  
     
     return 0;
 }
