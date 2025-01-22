@@ -9,11 +9,11 @@ int main() {
         printf("A");}
         else if (a>=80){
             printf("B");}
-            else if (a>=70){
+        else if (a>=70){
                 printf("C");}
-                else if (a>=60){
+         else if (a>=60){
                     printf("D");}
-                    else{
+    else{
                         printf("F");
                     }
 
