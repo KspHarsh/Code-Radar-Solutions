@@ -7,10 +7,12 @@ int main() {
     if (grade='A'){
         printf("Excellent");
     }else if (grade='B'){
-        printf("Average");
+        printf("Good");
     }else if (grade='C'){
-        printf("Below Average");
+        printf("Average");
     }else if (grade='D'){
+        printf("Below Average");
+    }else if (grade='F'){
         printf("Fail");
     }else{
         printf("Invalid grade");
