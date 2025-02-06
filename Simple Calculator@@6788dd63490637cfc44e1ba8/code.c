@@ -13,15 +13,12 @@ int main() {
         d=a+b;
         printf("%d",d);
     }else if(c== '/'){
-        if(b==0){
-            printf("error");
-        }else{
-            d=a/b;
-            printf("%d",d);
-        }else {
+        d=a/b;
+        printf("%d",d);
+    }else {
         printf("error");
     }
 
 
     return 0;
-}}
+}
