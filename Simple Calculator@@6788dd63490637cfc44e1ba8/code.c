@@ -7,13 +7,13 @@ int main() {
         d=a+b;
         printf("%d",d);
     }else if(c=='-'){
-        d==a-b;
+        d=a-b;
         printf("%d",d);
     }else if(c=='*'){
-        d==a*b;
+        d=a*b;
         printf("%d",d);
     }else if(c=='/'){
-        d==a/b;
+        d=a/b;
         printf("%d",d);
     }else {
         printf("error");
