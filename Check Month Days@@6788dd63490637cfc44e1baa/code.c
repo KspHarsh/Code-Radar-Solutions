@@ -1,9 +1,4 @@
 #include <stdio.h>
-
-
-
-
-
 int main() {
     int x;
     scanf("%d",&x);
@@ -30,7 +25,7 @@ int main() {
     }else if(x==11){
         printf("31");
     }else if (x==12){
-        printf("30")
+        printf("30");
     }else {
         printf("Invalid month");
     }
