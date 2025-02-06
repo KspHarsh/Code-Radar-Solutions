@@ -3,7 +3,8 @@
 
 
 int main() {
-    int a,b,c,d;
+    int a,b,d;
+    char c;
     scanf("%d %d %d",&a,&b,&c);
     if (c=='*'){
         d=a*b;
