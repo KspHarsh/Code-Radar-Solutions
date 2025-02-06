@@ -19,7 +19,7 @@ int main() {
         d=a/b;
         printf("%d",d);
     }else {
-        printf("error")
+        printf("error");
     }
 
 
