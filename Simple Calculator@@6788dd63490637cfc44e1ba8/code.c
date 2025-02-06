@@ -4,7 +4,7 @@ int main() {
     char c;
     scanf("%d %d %c",&a,&b,&c);
     if (c== '*'){
-        d = a *+ b;
+        d = a * b;
         printf("%d",d);
     }else if(c== '-'){
         d = a - b;
