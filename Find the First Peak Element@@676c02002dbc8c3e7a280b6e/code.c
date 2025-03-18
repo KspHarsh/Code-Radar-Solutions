@@ -11,7 +11,7 @@ int main() {
     }
 
     for (int i = 0; i < N; i++) {
-        if ((i == 0 && arr[i] >= arr[i - 1]) && (i == N - 1 && arr[i] >= arr[i + 1])) {
+        if ((i == 0 || arr[i] >= arr[i - 1]) || (i == N - 1 || arr[i] >= arr[i + 1])) {
             printf("%d\n", arr[i]);
             return 0;
         }
