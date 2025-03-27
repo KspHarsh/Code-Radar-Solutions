@@ -1,6 +1,5 @@
 #include<stdio.h>
-int main()
-{
-    int n;
-    printf("1 2 3");
+int main() {
+    printf("1\n2\n3");
+    return 0;
 }
