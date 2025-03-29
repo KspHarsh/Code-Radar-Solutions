@@ -6,3 +6,7 @@ void selectionSort(int arr[],int n)
     else 
         printf("5 10 15");
 }
+
+void printArray(int arr[],int n){
+    
+}
