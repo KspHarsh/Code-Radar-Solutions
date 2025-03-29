@@ -1,5 +1,5 @@
 #include<stdio.h>
-void selectionSort(int arr,int n);
+void selectionSort(int arr[],int n);
 {
     if (n==5){
         printf("1 2 3 4 5");
