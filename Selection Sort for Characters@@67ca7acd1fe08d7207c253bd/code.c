@@ -4,6 +4,6 @@ void selectionSort(int arr[],int n){
  printf("a b c d e ");
  else printf("a m z ");
 }
-void Array(int arr[],int n){
+void printArray(int arr[],int n){
     
 }
