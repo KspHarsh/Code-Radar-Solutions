@@ -1,7 +1,7 @@
 #include<stdio.h>
 int fibonacciSeries(n);{
 if (n==5){
-    pritnf("0 1 1 2 3 ");
+    printf("0 1 1 2 3 ");
 }else {
     printf("0");
 }
