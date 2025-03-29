@@ -6,8 +6,10 @@ if (n==5){
     printf("0");
 }
 int main(){
-scanf("%d",&n);
-fibonacciSeries(n);
+    int a;
+scanf("%d",&a);
+fibonacciSeries(a);
+return 0;
 }
 
 }
