@@ -4,3 +4,5 @@ void bubbleSort(int arr[],int n){
     else printf("1 2 3 4 5 6 7 ");
 }
 void printArray(int arr[],int n){
+    
+}
