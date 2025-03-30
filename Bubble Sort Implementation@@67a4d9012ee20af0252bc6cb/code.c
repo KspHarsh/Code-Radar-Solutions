@@ -1,20 +1,43 @@
-void bubbleSort(int arr[],int n){
+// void bubbleSort(int arr[],int n){
 
-    for (int i<1;i<n;i++){
-        for (int j=i;j>0;j--){
-            if (arr[j] < arr[j-1]){
-                int temp = arr[j];
-                arr[j]=arr[j-1];
-                a[j-1]=temp;
-            }else {
-                break;
+//     for (int i<1;i<n;i++){
+//         for (int j=i;j>0;j--){
+//             if (arr[j] < arr[j-1]){
+//                 int temp = arr[j];
+//                 arr[j]=arr[j-1];
+//                 a[j-1]=temp;
+//             }else {
+//                 break;
+//             }
+//         }
+//     }
+// }
+// void printArray(int arr[],int n){
+//     for (int i=0;i<n;i++){
+//         printf("%d",arr[i]);
+//     }
+//     printf("\n");
+// }
+
+
+
+void insertionSort(int arr[], int n) {
+        for (int i = 1; i < n; i++) {
+            for (int j = i; j > 0; j--) {  // Ensure j > 0 to avoid accessing arr[-1]
+                if (arr[j] < arr[j - 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j - 1];  // Swap with previous element
+                    arr[j - 1] = temp;
+                } else {
+                    break;
+                }
             }
         }
     }
-}
-void printArray(int arr[],int n){
-    for (int i=0;i<n;i++){
-        printf("%d",arr[i]);
+    
+    void printArray(int arr[], int n) {
+        for (int i = 0; i < n; i++) {
+            printf("%d ", arr[i]);
+        }
+        printf("\n");
     }
-    printf("\n");
-}
