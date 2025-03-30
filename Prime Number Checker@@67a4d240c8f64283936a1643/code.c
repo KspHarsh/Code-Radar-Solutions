@@ -9,7 +9,7 @@ return 0;
             return 0;
         }
         if for (int i=3;i*i<=num;i+=2){
-            (if num%i==0){
+            if (num%i==0){
                 return 0;
             }
         }
