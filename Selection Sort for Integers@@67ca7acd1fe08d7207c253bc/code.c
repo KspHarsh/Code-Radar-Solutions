@@ -20,7 +20,7 @@
 // }
 
 
-void insertionSort(int arr[], int n) {
+void selectionSort(int arr[], int n) {
         for (int i = 1; i < n; i++) {
             for (int j = i; j > 0; j--) {  // Ensure j > 0 to avoid accessing arr[-1]
                 if (arr[j] < arr[j - 1]) {
