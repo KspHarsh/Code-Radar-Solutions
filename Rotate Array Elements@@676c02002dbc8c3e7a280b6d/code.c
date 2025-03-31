@@ -3,8 +3,8 @@ int main() {
 int n, k;
 scanf("%d", &n);
 int arr[n];
-for (int i = 0; i < n; i++) scanf("%d %d", &arr[i],&k);
-// scanf("%d", &k);
+for (int i = 0; i < n; i++) scanf("%d", &arr[i]);
+scanf("%d", &k);
 k %= n;
 for (int i = 0; i < k; i++) {
 int temp = arr[n-1];
