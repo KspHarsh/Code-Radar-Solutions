@@ -7,8 +7,8 @@ a[m]=a[i];
 a[i]=t;}
 }
 
-int kthSmallest(int*a,int n,int k)
+
 {
-    s(a,n);
+    kthSmallest(a,n);
 return a[k-1];
 }
