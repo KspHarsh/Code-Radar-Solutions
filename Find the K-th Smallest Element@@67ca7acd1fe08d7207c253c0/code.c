@@ -1,14 +1,19 @@
-void selectionSort(int*a,int n)
-{for(int i=0,j,m;i<n-1;i++)
-{for(m=i,j=i+1;j<n;j++)
-if(a[j]<a[m])m=j;
-int t=a[m];
-a[m]=a[i];
-a[i]=t;}
+void selectionSort(int arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        int min_idx = i;
+        for (int j = i + 1; j < n; j++) {
+            if (arr[j] < arr[min_idx]) {
+                min_idx = j;
+            }
+        }
+        
+        int temp = arr[min_idx];
+        arr[min_idx] = arr[i];
+        arr[i] = temp;
+    }
 }
 
-
-{
-    kthSmallest(a,n);
-return a[k-1];
+int kthSmallest(int arr[], int n, int k) {
+    selectionSort(arr, n);
+    return arr[k - 1];
 }
