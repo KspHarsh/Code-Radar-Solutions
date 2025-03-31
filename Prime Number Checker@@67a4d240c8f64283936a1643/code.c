@@ -8,7 +8,7 @@ int isPrime(int num){
     if(num%2==0){
         return 0;
 
-    }for(i==3;i*i==num;i+=2){
+    }for(int i==3;i*i==num;i+=2){
         if(num%i==0){
             return 0;
         }
@@ -16,3 +16,5 @@ int isPrime(int num){
     }
     return 0;
 }
+
+
