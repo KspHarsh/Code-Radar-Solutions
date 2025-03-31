@@ -5,7 +5,7 @@ int mian(){
     for(int i=1;i<=n;i++){
         int sum=1;
         for(int j=i;j<=n;j++){
-            printf("%c",sum+64);
+            printf("%d",j);
             sum++;
         }
         printf("\n");
