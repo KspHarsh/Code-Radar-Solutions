@@ -18,7 +18,7 @@
 //     printf("\n");
 
 
-void fabonacciSeries(int n){
+void fibonacciSeries(int n){
     int first=0,second=1,next;
     for(int i=1;i<=n;i++){
         if(i==1){
