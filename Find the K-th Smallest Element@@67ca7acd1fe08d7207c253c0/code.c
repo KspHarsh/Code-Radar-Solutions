@@ -12,7 +12,15 @@ void selectionSort(int arr[], int n) {
         arr[i] = temp;
     }
     }
+// int kthSmallest(int arr[], int n, int k) {
+//     selectionSort(arr, n);
+//     return arr[k - 1];
+// }
+
 int kthSmallest(int arr[], int n, int k) {
+    if (k < 1 || k > n) {
+        return -1; // Indicates invalid k (out of range)
+    }
     selectionSort(arr, n);
     return arr[k - 1];
 }
