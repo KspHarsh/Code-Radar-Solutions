@@ -12,10 +12,10 @@ if(arr[i]!=-1){
     if(arr[i]==arr[j])
     c++;
     arr[j]=-1;
+    printf("%d %d\n",arr[i],c)
     }
 return 0;
 
 }
-
 
 
