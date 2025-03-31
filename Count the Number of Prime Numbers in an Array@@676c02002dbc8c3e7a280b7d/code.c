@@ -1,18 +1,28 @@
-#include<stdio.h>
-#include<math.h>
-int p(int n){
-if(n<2)return 0;
-for(int i=2;i<=sqrt(n);i++)if(n%i==0)return 0;
-return 1;
+#include <stdio.h>
+#include <math.h>
+
+int isPrime(int num) {
+    if (num <= 1) return 0;
+    if (num == 2) return 1;
+    if (num % 2 == 0) return 0;
+    for (int i = 3; i <= sqrt(num); i += 2) {
+        if (num % i == 0) return 0;
+    }
+    return 1;
 }
-int main(){
-int N,c=0;
-scanf("%d",&N);
-while(N--){
-int x;
-scanf("%d",&x);
-c+=p(x);
-}
-printf("%d",c);
-return 0;
+
+int main() {
+    int N, count = 0;
+    scanf("%d", &N);
+    int arr[N];
+    
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &arr[i]);
+        if (isPrime(arr[i])) {
+            count++;
+        }
+    }
+    
+    printf("%d", count);
+    return 0;
 }
